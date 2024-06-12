@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rental System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Movie Rental System</h1>
+
+    <h2>Add New Member</h2>
+    <form id="addMemberForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="phone" placeholder="Phone" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="date" id="membershipDate" required>
+        <button type="submit">Add Member</button>
+    </form>
+
+    <h2>Register New Rental</h2>
+    <form id="addRentalForm">
+        <input type="number" id="movieId" placeholder="Movie ID" required>
+        <input type="number" id="memberId" placeholder="Member ID" required>
+        <input type="date" id="rentalDate" required>
+        <input type="date" id="dueDate" required>
+        <button type="submit">Add Rental</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
